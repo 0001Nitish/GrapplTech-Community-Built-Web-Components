@@ -1,0 +1,29 @@
+/* src/components/Internships.css */
+
+.internships {
+  padding: 60px 20px;
+  background-color: #cfe6f1;
+  text-align: center;
+}
+
+.internships h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.internship {
+  margin-bottom: 30px;
+}
+
+.internship h3 {
+  font-size: 2em;
+  margin: 10px 0;
+  color: #1abc9c;
+}
+
+.internship p {
+  font-size: 1.1em;
+  color: #666;
+  line-height: 1.6;
+}

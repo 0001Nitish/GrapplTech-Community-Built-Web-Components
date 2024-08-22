@@ -1,0 +1,33 @@
+/* src/components/AboutMe.css */
+@keyframes fadeInScaledown {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.about {
+  padding: 60px 20px;
+  background-color: #d9f0fb;
+  text-align: center;
+  animation: fadeInScaledown 3.5s ease-in 0.5s;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+  animation: fadeInScaledown 1.5s ease-out 0.5s;
+}
+
+.about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 800px;
+  color: #666;
+}
